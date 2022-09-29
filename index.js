@@ -7,7 +7,9 @@ const client = require('./configs/redis')
 app.use(express.json())
 
 app.use('/api/user', require('./routes/user'))
-
+app.get('/', (_, res) => {
+  res.send('Crypto transaction server is up and running 🚀')
+})
 // Error handler
 app.use(require('./middlewares/exceptions/handler'))
 
