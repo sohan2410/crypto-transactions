@@ -27,13 +27,13 @@ npm i
 
 - Start the application using the following command
 
-####To run in production mode
+#### To run in production mode
 
 ```
 npm start
 ```
 
-####To run in development mode
+#### To run in development mode
 
 ```
 npm run dev
