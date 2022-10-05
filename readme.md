@@ -19,7 +19,6 @@ on GitHub.
 
 - Make sure you have NodeJS 16.0+ installed lcoally on your device
 - Create a .env file in the root directory of the project and copy the contents of .env.example into it
-- Create a .env file in the root directory of the project and copy the contents of .env.example into it.
 - Install dependencies using the following command
 
 ```
@@ -28,8 +27,16 @@ npm i
 
 - Start the application using the following command
 
+####To run in production mode
+
 ```
 npm start
+```
+
+####To run in development mode
+
+```
+npm run dev
 ```
 
 - Now, The Crypto transaction server is up and running 🚀
