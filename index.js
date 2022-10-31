@@ -7,6 +7,7 @@ const client = require('./configs/redis')
 app.use(express.json())
 
 app.use('/api/user', require('./routes/user'))
+app.use('/api/coins', require('./routes/coins'))
 app.get('/', (_, res) => {
   res.send('Crypto transaction server is up and running 🚀')
 })
